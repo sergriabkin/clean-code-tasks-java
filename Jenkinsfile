@@ -23,7 +23,7 @@ node {
 		postScore: true,
 		severity:"MINOR",
 		sonarURL: "${SONAR_EXT_URL}",
-		subJobConfigs: [[projectPath: 'Naming', sonarReportPath: 'target/sonar/sonar-report.json']]
+		subJobConfigs: [[projectPath: '', sonarReportPath: 'target/sonar/sonar-report.json']]
 
    }
 }
