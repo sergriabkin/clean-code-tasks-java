@@ -11,14 +11,7 @@
 *    Some tasks have unit tests implemented, if they exist, they are comprehensive and we are free to change production code in any way until tests are green. You may add more tests if you feel appropriate but this is not expected.
 
 
-## Review Process
 
-*    Participants should announce the completion of a task using agreed collaboration tool within the group. This makes them eligible for reviewing other's submissions for a given task.
-*    You should assign such eligible participants to review your code after you announce your code completion for a task.
-*    Every submission should be reviewed by 3  mandatory reviewers, and it also means that each participant should review at least 3 other submissions after he or she submit own task.
-*    Participants can choose reviewers, but 2 from 3 reviewers should differ from previous module reviewers.
-*    All the Participants should incorporate all review comments.
-*    In case of any conflict in opinion, to clarify, you should reach a Review Champion/ Engx Mentor/ Cleancode Author in that order till your query/conflict is resolved.
 
 
 

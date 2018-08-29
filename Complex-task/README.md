@@ -11,13 +11,7 @@
 *	Some tasks have unit tests implemented, if they exist, they are comprehensive and we are free to change production code in any way until tests are green. You may add more tests if you feel appropriate but this is not expected.
 
 
-## Review Process
 
-*	Participants should announce the completion of a task using any preferred collaboration tool within the group. This makes them eligible for reviewing other's submissions for a given task.
-*	You should assign such eligible participants to review your code after you announce your code completion for a task.
-*	All the Participants should review each other's submissions and incorporate all review comments.
-*	In case of any conflict in opinion, to clarify, you should reach a Review Champion/ Engx Mentor/ Cleancode Author in that order till your query/conflict is resolved.
-*	In case of Individual participants, you may identify an available Review Champion who will perform the reviews and provide feedback.
 
 
 ## Task Specific guidelines
