@@ -8,21 +8,23 @@ import com.epam.engx.cleancode.naming.task1.thirdpartyjar.Order;
 
 public class CollectOrderService implements IOrderService {
 
-    private CollectionService ser1;
-    private NotificationManager ser2;
+    public static final int CRITICAL_LEVEL = 1;
+    public static final int INFO_LEVEL = 4;
+    private CollectionService service;
+    private NotificationManager manager;
 
-    public void submitOrder(Order pOrder) {
-        if (ser1.isEligibleForCollection(pOrder))
-            ser2.notifyCustomer(Message.READY_FOR_COLLECT, 4); // 4 - info notification level
+    public void submitOrder(Order order) {
+        if (service.isEligibleForCollection(order))
+            manager.notifyCustomer(Message.READY_FOR_COLLECT, INFO_LEVEL);
         else
-            ser2.notifyCustomer(Message.IMPOSSIBLE_TO_COLLECT, 1); // 1 - critical notification level
+            manager.notifyCustomer(Message.IMPOSSIBLE_TO_COLLECT, CRITICAL_LEVEL);
     }
 
-    public void setSer1(CollectionService ser1) {
-        this.ser1 = ser1;
+    public void setService(CollectionService service) {
+        this.service = service;
     }
 
-    public void setSer2(NotificationManager ser2) {
-        this.ser2 = ser2;
+    public void setManager(NotificationManager manager) {
+        this.manager = manager;
     }
 }
